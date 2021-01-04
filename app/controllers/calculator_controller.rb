@@ -1,5 +1,7 @@
 class CalculatorController < ApplicationController
 	def add
-		@message = '안녕'	
+	end
+	def result
+		@result = params[:param1] + params[:param2]
 	end
 end
